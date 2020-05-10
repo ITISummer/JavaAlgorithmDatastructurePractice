@@ -1,4 +1,4 @@
-package practice.lanqiao.lanqiao_practice_system;
+package practice.lanqiao.lanqiao_practice_system.算法提高;
 
 
 public class 简单加法{

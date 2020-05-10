@@ -1,8 +1,8 @@
-package practice.lanqiao.lanqiao_practice_system;
+package practice.lanqiao.lanqiao_practice_system.算法训练;
 
 import java.util.Scanner;
 
-public class AestheticLesson {
+public class 审美课 {
 
 
 	public static void main(String[] args) {

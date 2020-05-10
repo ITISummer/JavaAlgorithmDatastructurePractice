@@ -1,4 +1,4 @@
-package practice.lanqiao.lanqiao_practice_system;
+package practice.lanqiao.lanqiao_practice_system.基础练习;
 
 public class 十转二进制 {
 	public static void main(String[] args) {

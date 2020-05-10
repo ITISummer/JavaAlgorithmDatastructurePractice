@@ -1,7 +1,8 @@
 package practice.lanqiao.lanqiao_practice_system.入门训练;
 
-/**
+/*
  * [题]http://lx.lanqiao.cn/problem.page?gpid=T4###
+ * passed
  */
 public class Fibonacci数列 {
 

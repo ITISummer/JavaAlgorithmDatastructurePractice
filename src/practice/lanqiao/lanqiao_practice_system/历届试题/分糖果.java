@@ -1,7 +1,10 @@
-package practice.lanqiao.lanqiao_practice_system;
+package practice.lanqiao.lanqiao_practice_system.历届试题;
 
 import java.util.Scanner;
 
+/*
+http://lx.lanqiao.cn/problem.page?gpid=T124
+ */
 public class 分糖果 {
 	public static void main(String[] args) {
 		Scanner input =new Scanner(System.in);

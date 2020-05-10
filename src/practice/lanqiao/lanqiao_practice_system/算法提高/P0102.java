@@ -1,19 +1,27 @@
-package practice.lanqiao.lanqiao_practice_system;
+package practice.lanqiao.lanqiao_practice_system.算法提高;
 
 
 import java.util.Scanner;
 
-public class 进制转换 {
+public class P0102 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		String str = input.nextLine();
-		int sum=0,count=0;
-		for(int i=0;i<str.length();i++) {
-		switch(str.charAt(i)) {
-		case '0': sum=0; break;
-		case '1': sum=1; break;
-		case '2': sum=2; break;
-		case '3': sum=3; break;
+		int sum = 0, count = 0;
+		for (int i = 0; i < str.length(); i++) {
+			switch (str.charAt(i)) {
+				case '0':
+					sum = 0;
+					break;
+				case '1':
+					sum = 1;
+					break;
+				case '2':
+					sum = 2;
+					break;
+				case '3':
+					sum = 3;
+					break;
 		case '4': sum=4; break;
 		case '5': sum=5; break;
 		case '6': sum=6; break;

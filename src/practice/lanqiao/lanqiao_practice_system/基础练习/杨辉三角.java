@@ -1,4 +1,4 @@
-package practice.lanqiao.lanqiao_practice_system;
+package practice.lanqiao.lanqiao_practice_system.基础练习;
 
 import java.util.Arrays;
 import java.util.Scanner;

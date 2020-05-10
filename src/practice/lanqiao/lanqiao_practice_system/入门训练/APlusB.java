@@ -1,7 +1,8 @@
 package practice.lanqiao.lanqiao_practice_system.入门训练;
 
-/**
+/*
  * http://lx.lanqiao.cn/problem.page?gpid=T1
+ * passed
  */
 
 import java.util.Scanner;

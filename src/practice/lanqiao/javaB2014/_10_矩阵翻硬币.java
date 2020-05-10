@@ -50,7 +50,6 @@ public class _10_矩阵翻硬币 {
 
     /**
      * get the sqrt of s
-     *
      * @param s
      */
     private static BigInteger sqrt(String s) {
