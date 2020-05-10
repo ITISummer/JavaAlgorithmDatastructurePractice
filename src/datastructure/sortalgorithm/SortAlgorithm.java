@@ -1,7 +1,5 @@
 package datastructure.sortalgorithm;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 
 /**
@@ -318,7 +316,7 @@ public class SortAlgorithm {
     } //end mergeSort()
 
     /**
-     * 基数排序
+     * 基数排序（桶排序）
      * O(n*k)-稳定
      *
      * @param arr
