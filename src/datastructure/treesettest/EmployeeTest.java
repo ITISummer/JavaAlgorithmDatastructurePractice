@@ -1,6 +1,7 @@
 package datastructure.treesettest;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 import java.util.Comparator;
 import java.util.Iterator;

@@ -1,6 +1,7 @@
 package datastructure.hashmaptest;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Hashtable;

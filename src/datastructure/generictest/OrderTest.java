@@ -1,6 +1,7 @@
 package datastructure.generictest;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 /**
  * 测试自定义泛型类 Order

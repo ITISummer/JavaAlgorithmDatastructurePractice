@@ -1,6 +1,7 @@
 package datastructure.stringmethodtest;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 /**
  * 此类用于测试String类的方法
