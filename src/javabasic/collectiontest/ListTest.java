@@ -58,9 +58,10 @@ public class ListTest {
         list.add(1);
         list.add(2);
         list.add(3);
+        list.add(1);
         System.out.println(list);
         System.out.println("************************");
-//        list.remove(2);
+//        list.remove(2); // remove list[2]
 //        System.out.println(list);
         list.remove(new Integer(2));
         System.out.println(list);
