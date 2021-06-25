@@ -1,4 +1,4 @@
-package datastructure.treesettest;
+package datastructure.tree.treesettest;
 
 public class MyDate implements Comparable {
     private int year;

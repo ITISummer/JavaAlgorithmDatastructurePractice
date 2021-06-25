@@ -2,17 +2,17 @@ package practice.leetcode.easy;
 
 import java.util.Scanner;
 
-public class CountandSay_38 {
-	public static void main(String[] args) {
-		@SuppressWarnings("resource")
-		Scanner input = new Scanner(System.in);
-		System.out.println("Please input a integer:");
-		int n = input.nextInt();
-		System.out.println(countAndSay_2(n));
+public class CountAndSay_38 {
+    public static void main(String[] args) {
+        @SuppressWarnings("resource")
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please input a integer:");
+        int n = input.nextInt();
+        System.out.println(countAndSay_2(n));
 
-	}// end main()
+    }// end main()
 
-	public static String countAndSay_1(int n) {
+    public static String countAndSay_1(int n) {
 
 		StringBuilder str = new StringBuilder("1");
 		if (n <= 0 || n > 30) {
@@ -65,14 +65,14 @@ public class CountandSay_38 {
 					str_1.append(num + "" + str.charAt(i - 1));
 					num = 1;
 				} // end if
-			} // end for
-			str_1.append(num + "" + str.charAt(i - 1));
-			str = str_1;
-			str = countAndSay_2_1(--n,str);
+            } // end for
+            str_1.append(num + "" + str.charAt(i - 1));
+            str = str_1;
+            str = countAndSay_2_1(--n, str);
 //			return str;
-		} else {
-			;
-		} // end if
-		return str;
-	}// end countAndSay_2_1()
-}// end CountandSay_38
+        } else {
+            ;
+        } // end if
+        return str;
+    }// end countAndSay_2_1()
+}// end CountAndSay_38

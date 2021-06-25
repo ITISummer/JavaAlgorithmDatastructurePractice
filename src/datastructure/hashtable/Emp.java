@@ -20,5 +20,5 @@ public class Emp {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
-    } //end toString()
-} //end Emp
+    }
+}

@@ -10,7 +10,7 @@ import java.util.List;
  * @Version 1.0
  **/
 public class DesignAnOrderedStream_1656 {
-    private int pointer;
+    private int pointer = 0;
     private final String[] array;
 
     public DesignAnOrderedStream_1656(int n) {
@@ -18,14 +18,18 @@ public class DesignAnOrderedStream_1656 {
     }
 
     public List<String> insert(int idKey, String value) {
+        // insert a value
         array[idKey - 1] = value;
+        // return []
         if (array[pointer] == null) return new ArrayList<>();
         List<String> list = new ArrayList<>();
+        // search null position that after pointer position
         for (int i = pointer; i < array.length; i++) {
             if (array[i] == null) {
                 pointer = i;
                 break;
             }
+            // add non-null values in array before meet next null position
             list.add(array[i]);
         }
         return list;

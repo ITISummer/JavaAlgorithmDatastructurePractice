@@ -16,7 +16,6 @@ public class EmpLinkedList {
     /**
      * 将员工信息添加到链表中 - 尾插法
      * 输出顺序与插入顺序相同
-     * @param emp
      */
     public void add(Emp emp) {
         Emp last = this.head;
@@ -26,7 +25,7 @@ public class EmpLinkedList {
         //将emp添加到链表最后
         emp.next = last.next;
         last.next = emp;
-    } //end add()
+    }
 
     /**
      * 遍历链表
@@ -36,13 +35,11 @@ public class EmpLinkedList {
         while (index != null) {
             System.out.println(index);
             index = index.next;
-        } //end while
-    } //end visit()
+        }
+    }
 
     /**
      * 通过id查找员工信息-假设id不重复
-     * @param id
-     * @return
      */
     public Emp findEmpById(int id) {
         Emp index = this.head.next;
@@ -51,14 +48,12 @@ public class EmpLinkedList {
                 return index;
             }
             index = index.next;
-        } //end while
+        }
         return null;
-    } //end findEmpById()
+    }
 
     /**
      * 根据id对节点进行删除
-     * @param id
-     * @return
      */
     public boolean delete(int id) {
         Emp pre = this.head;
@@ -70,12 +65,12 @@ public class EmpLinkedList {
                 cur = null;
                 //找到后就返回true直接退出，不需要继续查找
                 return true;
-            } //end if
+            }
             pre = pre.next;
             cur = pre.next;
-        } //end while
+        }
         return false;
-    } //end delete()
+    }
 
 //    public static void main(String[] args) {
 //        Emp emp1 = new Emp(1,"summer1");
