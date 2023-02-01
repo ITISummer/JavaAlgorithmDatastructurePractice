@@ -1,5 +1,7 @@
 package practice.leetcode.medium;
 
+import practice.leetcode.TreeNode;
+
 /**
  * @ClassName DeepestLeavesSum_1302
  * @Author LCX

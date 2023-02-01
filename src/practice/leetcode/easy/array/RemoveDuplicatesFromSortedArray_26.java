@@ -1,4 +1,4 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.array;
 
 public class RemoveDuplicatesFromSortedArray_26 {
 	public static void main(String[] args) {
@@ -7,9 +7,6 @@ public class RemoveDuplicatesFromSortedArray_26 {
 	}//end main()
 	
 	
-	/**
-	 * 
-	 * */
 	/*
 	 * Test Data:
 	 * [1,1,2]--2
