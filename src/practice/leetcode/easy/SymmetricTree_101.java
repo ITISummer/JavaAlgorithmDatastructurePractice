@@ -1,5 +1,7 @@
 package practice.leetcode.easy;
 
+import practice.leetcode.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

@@ -1,5 +1,7 @@
 package practice.leetcode.easy;
 
+import practice.leetcode.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -13,7 +15,7 @@ import java.util.Stack;
 public class BinaryTreePreorderTraversal_144 {
     List<Integer> res = new ArrayList<>();
 
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(RangeSumBST_938.TreeNode root) {
         if (root != null) {
             res.add(root.val);
             preorderTraversal(root.left);

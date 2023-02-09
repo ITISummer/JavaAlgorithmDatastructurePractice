@@ -1,5 +1,7 @@
 package practice.leetcode.easy;
 
+import practice.leetcode.TreeNode;
+
 public class PathSum_112 {
     public boolean haspathsum(TreeNode root, int targetsum) {
         if (root == null) {
