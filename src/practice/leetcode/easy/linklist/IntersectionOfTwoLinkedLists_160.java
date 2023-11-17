@@ -1,6 +1,8 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.linklist;
 
 import practice.leetcode.ListNode;
+
+import java.util.HashSet;
 
 /**
  * https://leetcode.com/problems/intersection-of-two-linked-lists/
@@ -62,5 +64,53 @@ public class IntersectionOfTwoLinkedLists_160 {
         }
 
         return a;
+    }
+
+
+    /**
+     * 和 getIntersectionNode_2 一样思路只不过换一种写法
+     * @param headA
+     * @param headB
+     * @return
+     */
+    public ListNode getIntersectionNode_3(ListNode headA, ListNode headB) {
+        ListNode p1 = headA, p2 = headB;
+        while (p1 != p2) {
+            if(p1 == null)
+                p1 = headB;
+            else
+                p1 = p1.next;
+            
+            if(p2 == null)
+                p2 = headA;
+            else
+                p2 = p2.next;
+        }
+       return p1;
+    }
+
+
+    /**
+     * 使用 HashSet 判断
+     * @param headA
+     * @param headB
+     * @return
+     */
+    public ListNode getIntersectionNode_4(ListNode headA, ListNode headB) {
+        ListNode tmp = headA;
+        HashSet<ListNode> hashSet = new HashSet<>();
+        while (tmp != null) {
+            hashSet.add(tmp);
+            tmp = tmp.next;
+        }
+        tmp = headB;
+        while (tmp != null) {
+            if(hashSet.contains(tmp)) {
+                return tmp;
+            }
+            tmp = tmp.next;
+        }
+        
+        return null;
     }
 }

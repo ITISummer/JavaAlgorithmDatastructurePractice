@@ -1,11 +1,11 @@
-package practice.leetcode.easy;
+package practice.leetcode.easy.linklist;
 
 import practice.leetcode.ListNode;
 
 /**
  * https://leetcode.com/problems/linked-list-cycle/
  */
-public class LinkedListCycle_141 {
+public class Easy_141_LinkedListCycle {
     /**
      * slow and fast pointer
      * @param head
