@@ -11,7 +11,7 @@ public class RotateImage_48 {
 	 * Conventional idea.<br>
 	 * 1. It's rotating diagonally<br>
 	 * 2. 2. Rotating column.<br>
-	 * 3. Print the array of matrix.<br>
+	 * 3. Print the 数组 of matrix.<br>
 	 * */
 	/*
 	 * Test Data: Example 1: Given input matrix = { {1,2,3}, {4,5,6}, {7,8,9} },
@@ -49,7 +49,7 @@ public class RotateImage_48 {
 			}//end for
 		}//end for
 //=====================================================
-		//3. Print the array of matrix.
+		//3. Print the 数组 of matrix.
 		for (int x[] : matrix) {
 			for (int y : x) {
 				System.out.print(y + " ");
@@ -78,7 +78,7 @@ public class RotateImage_48 {
         }//end for
 
 //=====================================================
-		//Print the array of matrix.
+		//Print the 数组 of matrix.
 		for (int x[] : matrix) {
 			for (int y : x) {
 				System.out.print(y + " ");

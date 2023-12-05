@@ -1,8 +1,8 @@
 package practice.leetcode.easy;
 
 /**
- * Write a function to find the longest common prefix string amongst an array of strings.
- *	If there is no common prefix, return an empty string "".
+ * Write a function to find the longest common prefix 字符串 amongst an 数组 of strings.
+ *	If there is no common prefix, return an empty 字符串 "".
  * */
 public class LongestCommonPrefix_14 {
 	public static void main(String[] args) {
@@ -12,9 +12,9 @@ public class LongestCommonPrefix_14 {
 
 	/**
 	 * Make full use of the methods of the String class.<br>
-	 * 1. Find the shortest  string.<br>
-	 * 2. Compare it to each element of the string array from beginning to end.<br>
-	 * 3. If it does not match any of the elements in the string array, it is clipped off the last character and out of the for loop.<br>
+	 * 1. Find the shortest  字符串.<br>
+	 * 2. Compare it to each element of the 字符串 数组 from beginning to end.<br>
+	 * 3. If it does not match any of the elements in the 字符串 数组, it is clipped off the last character and out of the for loop.<br>
 	 * 4. When its length is zero, break out of the while loop.
 	 * */
 	
@@ -30,7 +30,7 @@ public static String longestCommonPrefix_1(String[] strs) {
 	
 	if (strs == null || strs.length == 0)
         return "";
-	// Find the shortest  string.
+	// Find the shortest  字符串.
 	String minString = strs[0];
 	for(int i=1;i<strs.length;i++) {
 		if(minString.length()>strs[i].length()) {
@@ -63,15 +63,15 @@ public static String longestCommonPrefix_1(String[] strs) {
 
 /**
  * Use the simply method.
- * 1. Find the shortest  string.<br>
- * 2. Using two for loops, the outer loop's control condition is the length of the shortest string, 
- * and the memory loop's control condition is each element of the string array<br>
+ * 1. Find the shortest  字符串.<br>
+ * 2. Using two for loops, the outer loop's control condition is the length of the shortest 字符串, 
+ * and the memory loop's control condition is each element of the 字符串 数组<br>
  * */
 public static String longestCommonPrefix_2(String[] strs) {
 	
 	if (strs == null || strs.length == 0)
         return "";
-	// Find the shortest  string.
+	// Find the shortest  字符串.
 	String minString = strs[0];
 	for(int i=1;i<strs.length;i++) {
 		if(minString.length()>strs[i].length()) {

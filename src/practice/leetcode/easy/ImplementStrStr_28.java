@@ -6,9 +6,9 @@ public class ImplementStrStr_28 {
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
-		System.out.println("Please input a string(hayStack):");
+		System.out.println("Please input a 字符串(hayStack):");
 		String hayStack = input.next();
-		System.out.println("Please input a string(needle):");
+		System.out.println("Please input a 字符串(needle):");
 		String needle = input.next();
 		System.out.println(strStr_1(hayStack, needle));
 	}// end main()
@@ -63,7 +63,7 @@ public class ImplementStrStr_28 {
 	}// end strStr()
 	
 	/**
-	 * Use the method of  string class.
+	 * Use the method of  字符串 class.
 	 * */
 	public static int strStr_2(String hayStack, String needle) {
 		return hayStack.indexOf(needle);

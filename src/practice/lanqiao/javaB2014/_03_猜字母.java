@@ -13,7 +13,7 @@ import java.util.List;
 答案是一个小写字母，请通过浏览器提交答案。不要填写任何多余的內容。*
  */
 //public class _03_猜字母 {
-//    // initialize char array
+//    // initialize char 数组
 //    public static void main(String[] args) {
 //        List<Character> list = new ArrayList<>();
 //        for (int i = 1; i <= 106; i++) {
@@ -39,7 +39,7 @@ import java.util.List;
 
 public class _03_猜字母 {
     public static void main(String[] args) {
-        // initialize char array
+        // initialize char 数组
         char[] arr = new char[2014];
         int k = 0;
         for (int i = 1; i <= 106; i++) {

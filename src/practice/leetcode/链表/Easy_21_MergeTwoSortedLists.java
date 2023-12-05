@@ -1,4 +1,4 @@
-package practice.leetcode.easy.linklist;
+package practice.leetcode.链表;
 
 import practice.leetcode.ListNode;
 

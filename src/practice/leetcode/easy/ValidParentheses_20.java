@@ -7,7 +7,7 @@ public class ValidParentheses_20 {
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
-		System.out.println("Please input a string:");
+		System.out.println("Please input a 字符串:");
 		String s = input.next();
 		System.out.println(isValid_1(s));
 	}//end main

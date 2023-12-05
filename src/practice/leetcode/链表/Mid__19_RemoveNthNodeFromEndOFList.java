@@ -1,4 +1,4 @@
-package practice.leetcode.easy.linklist;
+package practice.leetcode.链表;
 
 import practice.leetcode.ListNode;
 
@@ -8,7 +8,7 @@ import practice.leetcode.ListNode;
  * 
  * https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/
  */
-public class Mid__19_Remove_Nth_Node_From_End_OF_List {
+public class Mid__19_RemoveNthNodeFromEndOFList {
     public ListNode findFromEnd(ListNode head, int n) {
         ListNode slow = head;
         ListNode fast = head;

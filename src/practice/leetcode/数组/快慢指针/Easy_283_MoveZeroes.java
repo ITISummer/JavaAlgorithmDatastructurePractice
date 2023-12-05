@@ -1,9 +1,9 @@
-package practice.leetcode.easy.array;
+package practice.leetcode.数组.快慢指针;
 
 /**
  * https://leetcode.com/problems/move-zeroes/description/
  */
-public class MoveZeroes_283 {
+public class Easy_283_MoveZeroes {
     public void moveZeroes_1(int[] nums) {
         int i = 0;
         for (int j = 0; j < nums.length; j++) {
@@ -15,6 +15,29 @@ public class MoveZeroes_283 {
         for(int k=i;k<nums.length;k++) {
             nums[k] = 0;
         }
+    }
+
+    void moveZeroes_0(int[] nums) {
+        int p = removeElement(nums,0);
+        for(; p < nums.length; p++) {
+            nums[p] = 0;
+        }
+    }
+    /**
+     * 使用快慢指针移除指定元素
+     * @param nums
+     * @param val
+     * @return
+     */
+    int removeElement(int[] nums, int val) {
+        int fast = 0, slow = 0;
+        while (fast < nums.length) {
+            if(nums[fast] != val) {
+                nums[slow++] = nums[fast];
+            }
+            fast++;
+        }
+        return slow;
     }
 
      public void moveZeroes(int[] nums) {

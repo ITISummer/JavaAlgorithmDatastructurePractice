@@ -32,7 +32,7 @@ public class NumbersSmallerThanTheCurrentNumber_1365 {
     public int[] smallerNumbersThanCurrent_1(int[] nums) {
 
         List<Integer> sorted = new ArrayList<>();
-        //O(n) - convert array to List
+        //O(n) - convert 数组 to List
         for (int i : nums) {
             sorted.add(i);
         }

@@ -38,7 +38,7 @@ public class MergeSortedArray_88 {
     }
 
     /**
-     * merge two arrays from backwards without using another array buffer
+     * merge two arrays from backwards without using another 数组 buffer
      * @param nums1
      * @param m
      * @param nums2

@@ -1,4 +1,4 @@
-package practice.leetcode.easy.array;
+package practice.leetcode.数组.左右指针;
 
 /**
  * https://leetcode.com/problems/binary-search/

@@ -1,4 +1,4 @@
-package practice.leetcode.easy.bit_manipulation;
+package practice.leetcode.位操作;
 
 /**
  * https://leetcode.com/problems/reverse-bits/

@@ -24,7 +24,7 @@ public class SumOddLengthSubarrays_1588 {
      */
     public int sumOddLengthSubarrays_2(int[] arr) {
         int sum = 0;
-        // traverse the array
+        // traverse the 数组
         for (int i = 0; i < arr.length; i++) {
             // finding the subarrays with odd length
             sum += ((i + 1) * (arr.length - i) + 1) / 2 * arr[i];

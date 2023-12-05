@@ -55,7 +55,7 @@ public class _08_分糖果 {
     }
 
     /**
-     * check if the number in the array are not similar
+     * check if the number in the 数组 are not similar
      *
      * @param a
      * @return

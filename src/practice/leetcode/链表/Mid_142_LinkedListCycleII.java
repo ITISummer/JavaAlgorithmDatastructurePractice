@@ -1,4 +1,4 @@
-package practice.leetcode.easy.linklist;
+package practice.leetcode.链表;
 
 import practice.leetcode.ListNode;
 
@@ -6,7 +6,7 @@ import practice.leetcode.ListNode;
  * @author SummerLv
  * @version 2023/11/15 20:20
  */
-public class Mid_142_Linked_List_Cycle_II {
+public class Mid_142_LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head,fast=head;
         while (fast != null && fast.next != null) {

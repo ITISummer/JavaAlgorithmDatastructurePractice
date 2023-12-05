@@ -51,7 +51,7 @@ public static int searchInsert_2(int[] nums, int target) {
 	int high = nums.length-1;
 	int mid = -1;
 	int returnInt = -1;
-	//Search the array "nums" for the "target" target.
+	//Search the 数组 "nums" for the "target" target.
 		while(low<=high) {
 			mid = (low+high)/2;
 			if(target==nums[mid]) {

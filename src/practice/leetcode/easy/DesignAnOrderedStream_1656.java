@@ -29,7 +29,7 @@ public class DesignAnOrderedStream_1656 {
                 pointer = i;
                 break;
             }
-            // add non-null values in array before meet next null position
+            // add non-null values in 数组 before meet next null position
             list.add(array[i]);
         }
         return list;

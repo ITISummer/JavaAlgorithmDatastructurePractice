@@ -213,7 +213,7 @@ public class Search {
      * 问题二：
      * 给定一个有序的数组，查找arr中等于value的最小下标
      * 如果问题改为查找value最后一次出现的下标呢？只需改动两个位置：
-     * 1.if (array[middle] >= value)中的等号去掉；
+     * 1.if (数组[middle] >= value)中的等号去掉；
      * 2.return中right+1改为left-1。
      *
      * @param arr
@@ -236,9 +236,9 @@ public class Search {
      * <p>
      * 如果问题改为查找最接近value且小于value的数的下标
      * （如果该数存在多个，返回最后一个下标）呢？只需改动两个位置：
-     * 1.if (array[middle] > value)加入一个等号；
-     * 2.return array[right + 1] > value ? right + 1 : -1;
-     * 改为return array[left-1] < value ? left - 1 : -1;。
+     * 1.if (数组[middle] > value)加入一个等号；
+     * 2.return 数组[right + 1] > value ? right + 1 : -1;
+     * 改为return 数组[left-1] < value ? left - 1 : -1;。
      *
      * @param array
      * @param left

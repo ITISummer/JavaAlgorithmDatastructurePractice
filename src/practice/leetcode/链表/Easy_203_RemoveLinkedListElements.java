@@ -1,14 +1,11 @@
-package practice.leetcode.easy.linklist;
+package practice.leetcode.链表;
 
 import practice.leetcode.ListNode;
-
-import javax.management.ListenerNotFoundException;
-import java.util.List;
 
 /**
  * https://leetcode.cn/problems/remove-linked-list-elements/
  */
-public class RemoveLinkedListElements_203 {
+public class Easy_203_RemoveLinkedListElements {
     public static ListNode removeElements(ListNode head, int val) {
           if(head==null) {
               return null;

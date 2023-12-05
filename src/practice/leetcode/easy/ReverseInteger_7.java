@@ -41,7 +41,7 @@ public class ReverseInteger_7 {
 		int countDigit = 0;// Calculate the length of the number
 		int cf = 0;// Leave the parameter state
 		int i = 0;
-		// The element that initializes array is 0.
+		// The element that initializes 数组 is 0.
 		for (i = 0; i < arr.length; i++) {
 			arr[i] = 0;
 		} // end for

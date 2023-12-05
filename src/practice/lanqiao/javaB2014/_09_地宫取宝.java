@@ -48,7 +48,7 @@ public class _09_地宫取宝 {
             }
         }
         in.close();
-        //initialize the array cache
+        //initialize the 数组 cache
         memset(cache, -1);
         long ans = dfs2(pla, 0, 0, -1, 0);
         System.out.println(ans);

@@ -1,4 +1,4 @@
-package practice.leetcode.easy.bit_manipulation;
+package practice.leetcode.位操作;
 
 /**
  * @ClassName XOROperation_1486

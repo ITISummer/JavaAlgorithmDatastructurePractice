@@ -9,7 +9,7 @@ package practice.leetcode.easy;
 public class GoalParserInterpretation_1678 {
     /**
      * solution 1
-     * using string api
+     * using 字符串 api
      */
     public String interpret(String command) {
         String s1 = command.replace("()", "o");

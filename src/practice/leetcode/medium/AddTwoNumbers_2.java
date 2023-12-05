@@ -1,5 +1,7 @@
 package practice.leetcode.medium;
 
+import practice.leetcode.ListNode;
+
 import java.util.Scanner;
 /*
  * test data:(2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -13,14 +15,6 @@ public class AddTwoNumbers_2 {
 		//addTwoNumbers(str);
 	}//end main()
 	
-	/**
-	 * Definition for singly-linked list.
-	 * */
-	public class ListNode {
-		     int val;
-		     ListNode next;
-		     ListNode(int x) { val = x; }
-		 }//end ListNode
 	/**
 	 * 
 	 * @param 

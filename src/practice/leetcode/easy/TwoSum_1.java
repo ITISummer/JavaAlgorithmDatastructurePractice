@@ -9,10 +9,10 @@ public class TwoSum_1 {
 	public static void main(String[] args) {
 			@SuppressWarnings({ "resource"})
 			Scanner input = new Scanner(System.in);
-			System.out.println("Please input the array's length:");			
+			System.out.println("Please input the 数组's length:");			
 			int length=input.nextInt();
 			int []nums=new int[length];
-			System.out.println("Please input the array elements:");
+			System.out.println("Please input the 数组 elements:");
 			for(int i=0;i<nums.length;i++) {
 					nums[i]=input.nextInt();
 			}//end for
@@ -43,7 +43,7 @@ public class TwoSum_1 {
 /**
  * Two-pass Hash Table
  *@return
- *					Returns an array of integers 
+ *					Returns an 数组 of integers 
  *@param
  *	
  * */
@@ -68,7 +68,7 @@ public class TwoSum_1 {
 	/**
 	 * One-pass Hash Table
 	 *@return
-	 *					Returns an array of integers 
+	 *					Returns an 数组 of integers 
 	 *@param
 	 *	
 	 * */

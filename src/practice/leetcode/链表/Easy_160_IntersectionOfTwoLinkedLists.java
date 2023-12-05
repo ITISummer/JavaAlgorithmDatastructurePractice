@@ -1,4 +1,4 @@
-package practice.leetcode.easy.linklist;
+package practice.leetcode.链表;
 
 import practice.leetcode.ListNode;
 
@@ -7,7 +7,7 @@ import java.util.HashSet;
 /**
  * https://leetcode.com/problems/intersection-of-two-linked-lists/
  */
-public class IntersectionOfTwoLinkedLists_160 {
+public class Easy_160_IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int m = getNumFromList(headA);
         int n = getNumFromList(headB);

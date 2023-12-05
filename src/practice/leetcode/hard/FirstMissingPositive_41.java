@@ -54,7 +54,7 @@ public class FirstMissingPositive_41 {
 					continue;
 				} // end if
 			} // end for
-				// If the firstPos equals last index of the array of "nums".
+				// If the firstPos equals last index of the 数组 of "nums".
 			if (firstPos == nums.length - 1) {
 				misPos = nums[nums.length - 1] + 1;
 			} // end if

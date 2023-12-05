@@ -1,4 +1,4 @@
-package practice.leetcode.easy.array;
+package practice.leetcode.数组;
 
 /**
  * https://leetcode.com/problems/valid-perfect-square/

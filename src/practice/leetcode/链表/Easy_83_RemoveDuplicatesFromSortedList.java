@@ -1,6 +1,7 @@
-package practice.leetcode.easy;
+package practice.leetcode.链表;
 
-import java.util.HashMap;
+import practice.leetcode.ListNode;
+
 import java.util.HashSet;
 
 /**
@@ -11,23 +12,7 @@ import java.util.HashSet;
  * [1]
  * []
  */
-public class RemoveDuplicatesFromSortedList_83 {
-    private class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
+public class Easy_83_RemoveDuplicatesFromSortedList {
 
     /**
      * Iteration
@@ -46,6 +31,21 @@ public class RemoveDuplicatesFromSortedList_83 {
                 p = p.next;
             }
         }
+        return head;
+    }
+    
+    public static ListNode deleteDuplicates(ListNode head) {
+        if(head == null) return null;
+        ListNode slow = head, fast = head.next;
+        while (fast != null) {
+            if(fast.val != slow.val) {
+                slow.next = fast;
+                slow = fast;
+            }
+            fast = fast.next;
+        }
+        // 断开与后面元素的连接
+        slow.next = null;
         return head;
     }
 
